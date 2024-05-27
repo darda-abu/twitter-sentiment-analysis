@@ -3,8 +3,6 @@ from transformers import TFAutoModelForSequenceClassification
 from transformers import AutoTokenizer
 import numpy as np
 from scipy.special import softmax
-import csv
-import urllib.request
 from helper import *
 import os
 
